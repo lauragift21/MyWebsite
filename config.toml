@@ -1,0 +1,93 @@
+# Site settings
+baseURL = "https://giftegwuenu.com"
+languageCode = "en-US"
+title = "Gift Egwuenu"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Gift Egwuenu"
+  description = "My personal website"
+  shareImage = "images/social.jpg"
+  twitterHandle = "lauragift21"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2018 Gift Egwuenu"
+
+  # Section - Content
+  [params.content]
+    name = "Gift Egwuenu"
+    tagline = "Front-End Developer. Photographer. Adventurer."
+    bio = "I’m passionate about the web and constantly learning and improving my skills.I enjoy creating solutions to complex  problems. Also have interests in Product Design,Machine Learning and collaborating with the tech community to enhance growth."
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "giftegwuenu.com/blog"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "laurandidi21@gmail.com"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "twitter.com/lauragift21"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "instagram.com/lauragift_"
+
+      [[params.links.list2.link]]
+        text = "Github"
+        url = "github.com/lauragift21"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        text = "Linkedin"
+        url = "linkedin.com/in/egwuenugift"
+
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
+
