@@ -66,7 +66,7 @@ googleAnalytics = ""
 
       [[params.links.list2.link]]
         text = "Twitter"
-        url = "twitter.com/lauragift21"
+        url = "www.twitter.com/lauragift21"
 
       [[params.links.list2.link]]
         text = "Instagram"
