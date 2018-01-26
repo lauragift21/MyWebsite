@@ -26,7 +26,7 @@ googleAnalytics = ""
   [params.content]
     name = "Gift Egwuenu"
     tagline = "Front-End Developer. Photographer. Adventurer."
-    bio = "I’m passionate about the web and constantly learning and improving my skills.I enjoy creating solutions to complex  problems. Also have interests in Product Design,Machine Learning and collaborating with the tech community to enhance growth."
+    bio = "I’m passionate about web  technologies and constantly learning and improving my skills. I enjoy creating solutions to complex  problems. Also have interests in Product Design, Machine Learning and collaborating with the tech community to enhance growth. Photography is my alter-ego."
 
   # Section - Visual
   [params.visual]
