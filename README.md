@@ -1,4 +1,7 @@
 # MyWebsite
-Personal Website
+Personal Website built with Onelove theme from HUGO.
 
-Run project using `Hugo server`
+
+Run project using 
+`hugo serve` or
+`hugo server -w`
