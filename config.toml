@@ -1,7 +1,7 @@
-# Site settings
 baseURL = "https://giftegwuenu.com"
 languageCode = "en-US"
 title = "Gift Egwuenu"
+absoluteURLs = false
 theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
@@ -53,7 +53,7 @@ googleAnalytics = ""
 
       [[params.links.list1.link]]
         text = "Blog"
-        url = "giftegwuenu.com/blog"
+        url = "https://giftegwuenu.com/blog"
 
       [[params.links.list1.link]]
         text = "Email"
@@ -66,15 +66,15 @@ googleAnalytics = ""
 
       [[params.links.list2.link]]
         text = "Twitter"
-        url = "www.twitter.com/lauragift21"
+        url = "https://www.twitter.com/lauragift21"
 
       [[params.links.list2.link]]
         text = "Instagram"
-        url = "instagram.com/lauragift_"
+        url = "https://www.instagram.com/lauragift_"
 
       [[params.links.list2.link]]
         text = "Github"
-        url = "github.com/lauragift21"
+        url = "https://www.github.com/lauragift21"
 
   # Links List #3
   [[params.links]]
@@ -83,7 +83,7 @@ googleAnalytics = ""
 
       [[params.links.list3.link]]
         text = "Linkedin"
-        url = "linkedin.com/in/egwuenugift"
+        url = "https://www.linkedin.com/in/egwuenugift"
 
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
